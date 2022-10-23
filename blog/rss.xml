@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Hi! I'm Sidharth. Blog</title>
-        <link>https://sidsharma22.github.io/blog</link>
+        <link>https://sidsharma22.github.io/my-website/blog</link>
         <description>Hi! I'm Sidharth. Blog</description>
         <lastBuildDate>Sat, 01 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[MLE and MLP]]></title>
-            <link>https://sidsharma22.github.io/blog/First Post</link>
+            <link>https://sidsharma22.github.io/my-website/blog/First Post</link>
             <guid>First Post</guid>
             <pubDate>Sat, 01 Oct 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Update coming soon...]]></description>
@@ -21,7 +21,7 @@
         </item>
         <item>
             <title><![CDATA[Hoeffiding Inequality]]></title>
-            <link>https://sidsharma22.github.io/blog/second-post</link>
+            <link>https://sidsharma22.github.io/my-website/blog/second-post</link>
             <guid>second-post</guid>
             <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Update coming soon...]]></description>

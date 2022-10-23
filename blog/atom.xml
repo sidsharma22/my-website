@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://sidsharma22.github.io/blog</id>
+    <id>https://sidsharma22.github.io/my-website/blog</id>
     <title>Hi! I'm Sidharth. Blog</title>
     <updated>2022-10-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://sidsharma22.github.io/blog"/>
+    <link rel="alternate" href="https://sidsharma22.github.io/my-website/blog"/>
     <subtitle>Hi! I'm Sidharth. Blog</subtitle>
-    <icon>https://sidsharma22.github.io/img/favicon.ico</icon>
+    <icon>https://sidsharma22.github.io/my-website/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[MLE and MLP]]></title>
         <id>First Post</id>
-        <link href="https://sidsharma22.github.io/blog/First Post"/>
+        <link href="https://sidsharma22.github.io/my-website/blog/First Post"/>
         <updated>2022-10-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Update coming soon...]]></summary>
         <content type="html"><![CDATA[<p>Update coming soon...</p>]]></content>
@@ -25,7 +25,7 @@
     <entry>
         <title type="html"><![CDATA[Hoeffiding Inequality]]></title>
         <id>second-post</id>
-        <link href="https://sidsharma22.github.io/blog/second-post"/>
+        <link href="https://sidsharma22.github.io/my-website/blog/second-post"/>
         <updated>2021-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Update coming soon...]]></summary>
         <content type="html"><![CDATA[<p>Update coming soon...</p>]]></content>
