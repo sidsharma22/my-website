@@ -10,7 +10,7 @@ const katex = require('rehype-katex');
 const config = {
   title: 'Hi! I\'m Sidharth.',
   tagline: 'I\'m currently studying ML and computer security at Carnegie Mellon University, consulting traditional businesses to be tech first, and solving problems on Kaggle.',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://sidsharma22.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
