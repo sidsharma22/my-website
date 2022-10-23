@@ -16,7 +16,7 @@ const config = {
   
   title: 'Hi! I\'m Sidharth.',
   tagline: 'I\'m currently studying ML and computer security at Carnegie Mellon University, consulting traditional businesses to be tech first, and solving problems on Kaggle.',
-  url: 'https://sidsharma22.github.io',
+  //url: 'https://sidsharma22.github.io',
   //baseUrl: '/my-website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
