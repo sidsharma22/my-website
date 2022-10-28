@@ -61,7 +61,7 @@ const socialLinks = {
 function HomeNew(){
   const {siteConfig} = useDocusaurusContext();
   return (
-  <Layout>
+  <header>
 <Grid container spacing={2} style={{ padding: "5%" }} className="hero">
         {/*Personal Intro */}
         <Grid item xs={12} lg={6} className="homeIntro">
@@ -105,11 +105,11 @@ function HomeNew(){
         <Grid item xs={12} lg={6} className="homeImg">
           <img src={logo} /> 
           <Typography variant="body1" gutterBottom>
-          <p>I asked an <a href="https://beta.dreamstudio.ai/dream"> AI </a> to draw a potrait of me, this is what I got back.</p>
+          <p>I asked an AI to draw a potrait of me, this is what I got back.</p>
           </Typography>
         </Grid>
       </Grid>
-  </Layout>
+  </header>
 
   );
 }
