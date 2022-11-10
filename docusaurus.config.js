@@ -10,8 +10,8 @@ const katex = require('rehype-katex');
 const config = {
   title: 'Sidharth Sharma',
   tagline: 'I\'m currently studying ML and computer security at Carnegie Mellon University, consulting traditional businesses to be tech first, and solving problems on Kaggle.',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://sidsharma22.github.io',
+  baseUrl: '/my-website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/sid.ico',
@@ -27,7 +27,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'sidsharma22', // Usually your GitHub org/user name.
-  projectName: 'website', // Usually your repo name.
+  projectName: 'my-website', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
