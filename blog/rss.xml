@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Hi! I'm Sidharth. Blog</title>
+        <title>Sidharth Sharma Blog</title>
         <link>https://sidsharma22.github.io/my-website/blog</link>
-        <description>Hi! I'm Sidharth. Blog</description>
-        <lastBuildDate>Sat, 01 Oct 2022 00:00:00 GMT</lastBuildDate>
+        <description>Sidharth Sharma Blog</description>
+        <lastBuildDate>Tue, 08 Nov 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[Why scaling helps the cost  function to converge faster?]]></title>
+            <link>https://sidsharma22.github.io/my-website/blog/second-post</link>
+            <guid>second-post</guid>
+            <pubDate>Tue, 08 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[TL;DR: Scaling the input features, causes the gradient of the cost to converge faster.]]></description>
+            <content:encoded><![CDATA[<p>TL;DR: Scaling the input features, causes the gradient of the cost to converge faster.</p><p><img loading="lazy" alt="img alt" src="/my-website/assets/images/GD-1-68a3d4ec5a1098f5b9e3929d2bde566e.png" width="275" height="268" class="img_ev3q"></p><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="introduction">Introduction<a class="hash-link" href="#introduction" title="Direct link to heading">​</a></h3><p>While running a machine learning experiment using linear regression, I noticed that the batch gradient descent algorithm converges faster when the data is scaled. Since, we know the effects of scaling helps in models like KNN where the magnitude of each observation plays a very important role, but why is convergence affected  in case of batch-gradient descent? Why was scaling having such a big impact?
+In the experiment if I do not scale the features the algorithm does not converge in a fixed number of steps. After scaling, the algorithm converges in half the number of steps initially used!
+First, let’s look at the cost function that is in this experiment.</p><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="cost-function">Cost function<a class="hash-link" href="#cost-function" title="Direct link to heading">​</a></h3><p>I used residual sum of squares error as the cost function in this experiment.
+Rss = ((theta_0 + theta_1*x) - y )^2
+This will give us an ellipse equation. But if we scale our input value (x) such that the values are between 0 and 1.  The equation smooths to look like a circle, when the equation is plotted with theta_0 on the x-axis and theta_1 on the y_axis. Moving forward, remember how scaling the input smooths the contour. </p><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="how-do-gradients-work">How do gradients work?<a class="hash-link" href="#how-do-gradients-work" title="Direct link to heading">​</a></h3><p>The gradient of a multivariate  function gives us the direction where the function increases the fastest and its magnitude gives us the rate of increase. For a more intuitive example, think of burning an incense stick and then observing its smoke. In three dimensional space the smoke will move in one direction(xmax, ymax, zmax) faster as compared to other directions, and that is the gradient!</p><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="use-of-gradients-in-machine-learning">Use of Gradients in Machine Learning<a class="hash-link" href="#use-of-gradients-in-machine-learning" title="Direct link to heading">​</a></h3><p>All the parametric models in machine learning have a cost function. We try to find the minima of that cost function as we want our model to learn the relationship between our input data and the output label. With the help of gradients  we know how to calculate the direction of fastest increase in function. We use this technique to get the direction in which the cost of our system increases the most and then move in the opposite direction. Why the opposite? Because we want to reach the minimum point of this increasing function. Why the minimum? The minimum point will give us the minimum cost! </p><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="gradient-of-an-ellipse-vs-circle">Gradient of an ellipse vs circle<a class="hash-link" href="#gradient-of-an-ellipse-vs-circle" title="Direct link to heading">​</a></h3><p><img loading="lazy" alt="img alt" src="/my-website/assets/images/GD-2-e1be80e564ba129a81f75659ef6089d9.png" width="627" height="244" class="img_ev3q">
+One of the things we should remember in order to understand why scaling is required is that the gradient of an ellipse does not point to its center, whereas in the case of a circle the gradient will always point to the center. At the center lies the point where the cost is minimum.</p><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="impact-of-scaling">Impact of scaling<a class="hash-link" href="#impact-of-scaling" title="Direct link to heading">​</a></h3><p>When we scale the inputs and squash the values between 0 - 1. This automatically smoothes the contours of our cost function to be more circular. Normalizing will result in a cost function with less elliptical and more 'circular' contours. This gives us two advantages, the gradient would converge faster as its natural direction would be towards the center and we could increase the step size or learning rate “alpha” in this case to reach the minima even quicker, as there would be less zig-zag movement by the gradient vector to find the minima.</p>]]></content:encoded>
+            <category>Gradient Descent</category>
+            <category>Cost Function</category>
+            <category>ML</category>
+        </item>
+        <item>
             <title><![CDATA[MLE and MLP]]></title>
             <link>https://sidsharma22.github.io/my-website/blog/First Post</link>
             <guid>First Post</guid>
-            <pubDate>Sat, 01 Oct 2022 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 10 Oct 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Update coming soon...]]></description>
             <content:encoded><![CDATA[<p>Update coming soon...</p>]]></content:encoded>
             <category>Machine Learning</category>
@@ -20,13 +36,20 @@
             <category>MLP</category>
         </item>
         <item>
-            <title><![CDATA[Hoeffiding Inequality]]></title>
-            <link>https://sidsharma22.github.io/my-website/blog/second-post</link>
-            <guid>second-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Update coming soon...]]></description>
-            <content:encoded><![CDATA[<p>Update coming soon...</p>]]></content:encoded>
-            <category>docusaurus</category>
+            <title><![CDATA[State of Recommender Systems in 2013]]></title>
+            <link>https://sidsharma22.github.io/my-website/blog/RecSys2012</link>
+            <guid>RecSys2012</guid>
+            <pubDate>Thu, 22 Sep 2022 00:00:00 GMT</pubDate>
+            <category>Machine Learning</category>
+            <category>Recommender Systems</category>
+        </item>
+        <item>
+            <title><![CDATA[State of Recommender Systems in 2019]]></title>
+            <link>https://sidsharma22.github.io/my-website/blog/RecSys2019</link>
+            <guid>RecSys2019</guid>
+            <pubDate>Wed, 17 Aug 2022 00:00:00 GMT</pubDate>
+            <category>Machine Learning</category>
+            <category>Recommender Systems</category>
         </item>
     </channel>
 </rss>

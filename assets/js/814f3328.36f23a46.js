@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"MLE and MLP","permalink":"/my-website/blog/First Post"},{"title":"Hoeffiding Inequality","permalink":"/my-website/blog/second-post"}]}')}}]);
