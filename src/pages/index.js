@@ -1,4 +1,5 @@
 import React from 'react';
+import {useRef} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -60,29 +61,33 @@ const socialLinks = {
 
 function HomeNew(){
   const {siteConfig} = useDocusaurusContext();
+  const ref1=useRef("https://calendly.com/sidsharma22/30min")
   return (
-  <header>
+  <header className={clsx('hero hero--primary', styles.heroBanner)}>
 <Grid container spacing={2} style={{ padding: "5%" }} className="hero">
         {/*Personal Intro */}
-        <Grid item xs={12} lg={6} className="homeIntro">
+        <Grid container spacing={2}  direction="row" justifyContent="left" alignItems="left">
           <animated.div>
+            
             <Typography variant="h2" gutterBottom>
-              <span className="intro__name"> {siteConfig.title}</span>
+              <span className="intro__name"> {"Hi! I'm Sidharth."}</span>
               {/* <Typography variant="body2">
                 <span>{siteConfig.tagline}</span>
               </Typography> */}
             </Typography>
           </animated.div>
           <animated.div>
-            <Typography variant="body1">
+            <Typography variant="body1" align="left">
               <p>
-                A Carnegie Mellon University student who has a great passion for 
-                software and hardware engineering. While keeping updated with the most 
-                recent technologies, I always seek to improve and grow as a
-                professional computer engineer as well as a person.
+                I'm currently studing Computer Engineering at Carnegie Mellon University,
+                building recommender system and running kaggle club to help students apply ML skills on real world problems.
               </p>{" "}
             </Typography>
+            <Typography variant="body1" align="left" size="xs">
+          <p><a href="https://calendly.com/sidsharma22/30min" > ☕</a> Grab time to say Hi!</p>
+          </Typography>
           </animated.div>
+
           &nbsp;
           <animated.div>
             <Typography variant="h6" gutterBottom>
@@ -91,11 +96,22 @@ function HomeNew(){
             <Typography variant="body1" gutterBottom>
               <ul>
                 <li>Building Machine Learning Systems</li>
-                <li >Full-Stack Software Development</li> 
+                <li >Backend Software Development</li> 
                 <li>Hardware CPU/Accelerator Design</li>
                 <li>Cloud techonologies</li>
               </ul>
             </Typography>
+            <Typography variant="h6" gutterBottom>
+              <p>Currenly Reading:</p>
+          </Typography>
+          <Typography variant="body1" gutterBottom>
+          <ul>
+                <li>Designing Machine Learning Systems</li>
+                <li >Deep Learning with Python</li> 
+                <li>Black Hole Survival Guide</li>
+                <li>Antifragile</li>
+          </ul>
+          </Typography>
             <Typography variant="body1" gutterBottom>
               {/*<p><b>Prompt Used:</b> <i>"A panda coding in a cafe with hoddie over head"</i></p>*/}
             </Typography>
@@ -103,13 +119,11 @@ function HomeNew(){
         </Grid>
 
         <Grid item xs={12} lg={6} className="homeImg">
-          <img src={logo} /> 
-          <Typography variant="body1" gutterBottom>
-          <p>I asked an AI to draw a potrait of me, this is what I got back.</p>
-          </Typography>
+          {/*<img src={logo} /> */}
+
         </Grid>
       </Grid>
-  </header>
+      </header>
 
   );
 }
@@ -118,8 +132,8 @@ function HomeNew(){
     const {siteConfig} = useDocusaurusContext();
     return (
       <Layout
-        title={`Hello from ${siteConfig.title}`}
-        description="Description will go into a meta tag in <head />">
+        /*title={`Sidharth Sharma`}*/
+        description="Sidharth Sharma">
         <HomeNew />
         <SocialLinks />
       </Layout>
