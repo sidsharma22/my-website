@@ -24,32 +24,5 @@ One of the things we should remember in order to understand why scaling is requi
             <category>Cost Function</category>
             <category>ML</category>
         </item>
-        <item>
-            <title><![CDATA[MLE and MLP]]></title>
-            <link>https://sidsharma22.github.io/my-website/blog/First Post</link>
-            <guid>First Post</guid>
-            <pubDate>Mon, 10 Oct 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Update coming soon...]]></description>
-            <content:encoded><![CDATA[<p>Update coming soon...</p>]]></content:encoded>
-            <category>Machine Learning</category>
-            <category>MLE</category>
-            <category>MLP</category>
-        </item>
-        <item>
-            <title><![CDATA[State of Recommender Systems in 2013]]></title>
-            <link>https://sidsharma22.github.io/my-website/blog/RecSys2012</link>
-            <guid>RecSys2012</guid>
-            <pubDate>Thu, 22 Sep 2022 00:00:00 GMT</pubDate>
-            <category>Machine Learning</category>
-            <category>Recommender Systems</category>
-        </item>
-        <item>
-            <title><![CDATA[State of Recommender Systems in 2019]]></title>
-            <link>https://sidsharma22.github.io/my-website/blog/RecSys2019</link>
-            <guid>RecSys2019</guid>
-            <pubDate>Wed, 17 Aug 2022 00:00:00 GMT</pubDate>
-            <category>Machine Learning</category>
-            <category>Recommender Systems</category>
-        </item>
     </channel>
 </rss>

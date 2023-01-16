@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[804],{2555:e=>{e.exports=JSON.parse('[{"label":"Gradient Descent","permalink":"/my-website/blog/tags/gradient-descent","count":1},{"label":"Cost Function","permalink":"/my-website/blog/tags/cost-function","count":1},{"label":"ML","permalink":"/my-website/blog/tags/ml","count":1}]')}}]);

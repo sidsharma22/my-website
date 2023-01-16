@@ -27,43 +27,4 @@ One of the things we should remember in order to understand why scaling is requi
         <category label="Cost Function" term="Cost Function"/>
         <category label="ML" term="ML"/>
     </entry>
-    <entry>
-        <title type="html"><![CDATA[MLE and MLP]]></title>
-        <id>First Post</id>
-        <link href="https://sidsharma22.github.io/my-website/blog/First Post"/>
-        <updated>2022-10-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Update coming soon...]]></summary>
-        <content type="html"><![CDATA[<p>Update coming soon...</p>]]></content>
-        <author>
-            <name>Sidharth Sharma</name>
-            <uri>https://github.com/sidsharma22/"</uri>
-        </author>
-        <category label="Machine Learning" term="Machine Learning"/>
-        <category label="MLE" term="MLE"/>
-        <category label="MLP" term="MLP"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State of Recommender Systems in 2013]]></title>
-        <id>RecSys2012</id>
-        <link href="https://sidsharma22.github.io/my-website/blog/RecSys2012"/>
-        <updated>2022-09-22T00:00:00.000Z</updated>
-        <author>
-            <name>Sidharth Sharma</name>
-            <uri>https://github.com/sidsharma22/"</uri>
-        </author>
-        <category label="Machine Learning" term="Machine Learning"/>
-        <category label="Recommender Systems" term="Recommender Systems"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State of Recommender Systems in 2019]]></title>
-        <id>RecSys2019</id>
-        <link href="https://sidsharma22.github.io/my-website/blog/RecSys2019"/>
-        <updated>2022-08-17T00:00:00.000Z</updated>
-        <author>
-            <name>Sidharth Sharma</name>
-            <uri>https://github.com/sidsharma22/"</uri>
-        </author>
-        <category label="Machine Learning" term="Machine Learning"/>
-        <category label="Recommender Systems" term="Recommender Systems"/>
-    </entry>
 </feed>
